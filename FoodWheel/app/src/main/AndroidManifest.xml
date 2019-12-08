@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodwheel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Lovelist_Result" />
+        <activity android:name=".Result" />
+        <activity android:name=".Contact_us" />
+        <activity android:name=".Register_2" />
+        <activity android:name=".member_information_1" />
+        <activity android:name=".Main_Home_1" />
+        <activity android:name=".Total_list" />
+        <activity android:name=".Favorite_list" />
+        <activity android:name=".Forger_password" />
+        <activity android:name=".Lovelist_Lottery" />
+        <activity android:name=".Lottery" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+    </application>
+
+</manifest>
